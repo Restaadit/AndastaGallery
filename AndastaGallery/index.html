@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        
+        <header class="header" id="home">
+            <div class="hero">
+              <h2 class="heading">Andasta Gallery</h2>
+              <p class="sub-heading">Seserahan | Mahar | Souvernir</p>  
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">Seserahan</h4>
+                <p class="item">Mulai dari 500k</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">Mahar </h4>
+                <p class="item">Mulai dari 400k</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>Andasta Gallery</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <section class="services" id="Product">
+            <div class="service">
+                <div class="icon">🛒</div>
+                    <h3>Seserahan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Iusto illum, harum distinctio perferendis praesentium eaque?</p>
+                </div>
+            <div class="service">
+                <div class="icon">💎</div>
+                    <h3>Mahar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Iusto illum, harum distinctio perferendis praesentium eaque?</p>
+            </div>
+            <div class="service">
+                <div class="icon">💍</div>
+                    <h3>Box Perhiasan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Iusto illum, harum distinctio perferendis praesentium eaque?</p>
+
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+
+            <h2>Gallery</h2>
+            <img src="img/gallery1.jpg" alt="">
+            <img src="img/gallery2.jpg" alt="">
+            <img src="img/gallery3.jpg" alt="">
+            <img src="img/gallery4.jpg" alt="">
+            <img src="img/gallery5.jpg" alt="">
+            <img src="img/gallery6.jpg" alt="">
+            <img src="img/gallery7.jpg" alt="">
+            <img src="img/gallery8.jpg" alt="">
+            <img src="img/gallery9.jpg" alt="">
+            <img src="img/gallery10.jpg" alt="">
+            <img src="img/gallery11.jpg" alt="">
+            <img src="img/gallery12.jpg" alt="">
+        </section>
+
+        <section class="about" id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quibusdam aspernatur officia sunt dolorem totam quis nesciunt quidem? Animi fugit ut voluptate odit facilis ipsum id dolorum nobis aspernatur minima?</p>
+
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>
